@@ -1,0 +1,966 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/alx-backend-javascript/0x05-Node_JS_basic',
+5 verbose install   [ 'chokidar',
+5 verbose install     'debug',
+5 verbose install     'ignore-by-default',
+5 verbose install     'minimatch',
+5 verbose install     'pstree.remy',
+5 verbose install     'semver',
+5 verbose install     'simple-update-notifier',
+5 verbose install     'supports-color',
+5 verbose install     'touch',
+5 verbose install     'undefsafe',
+5 verbose install     '@commitlint/cli',
+5 verbose install     '@commitlint/config-conventional',
+5 verbose install     'async',
+5 verbose install     'coffee-script',
+5 verbose install     'eslint',
+5 verbose install     'husky',
+5 verbose install     'mocha',
+5 verbose install     'nyc',
+5 verbose install     'proxyquire',
+5 verbose install     'semantic-release',
+5 verbose install     'should' ] ]
+6 info preinstall nodemon@0.0.0-development
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'chokidar@^3.5.2', null ]
+9 verbose cache add name=undefined spec="chokidar@^3.5.2" args=["chokidar@^3.5.2",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'chokidar@^3.5.2',
+10 verbose parsed url   path: 'chokidar@^3.5.2',
+10 verbose parsed url   href: 'chokidar@^3.5.2' }
+11 verbose cache add name="chokidar" spec="^3.5.2" args=["chokidar","^3.5.2"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '^3.5.2',
+12 verbose parsed url   path: '^3.5.2',
+12 verbose parsed url   href: '^3.5.2' }
+13 verbose addNamed [ 'chokidar', '^3.5.2' ]
+14 verbose addNamed [ null, '>=3.5.2-0 <4.0.0-0' ]
+15 verbose cache add [ 'debug@^3.2.7', null ]
+16 verbose cache add name=undefined spec="debug@^3.2.7" args=["debug@^3.2.7",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'debug@^3.2.7',
+17 verbose parsed url   path: 'debug@^3.2.7',
+17 verbose parsed url   href: 'debug@^3.2.7' }
+18 verbose cache add name="debug" spec="^3.2.7" args=["debug","^3.2.7"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '^3.2.7',
+19 verbose parsed url   path: '^3.2.7',
+19 verbose parsed url   href: '^3.2.7' }
+20 verbose addNamed [ 'debug', '^3.2.7' ]
+21 verbose addNamed [ null, '>=3.2.7-0 <4.0.0-0' ]
+22 silly lockFile 27b6d617-chokidar-3-5-2 chokidar@^3.5.2
+23 verbose lock chokidar@^3.5.2 /root/.npm/27b6d617-chokidar-3-5-2.lock
+24 silly lockFile 39b34562-debug-3-2-7 debug@^3.2.7
+25 verbose lock debug@^3.2.7 /root/.npm/39b34562-debug-3-2-7.lock
+26 verbose cache add [ 'minimatch@^3.1.2', null ]
+27 verbose cache add name=undefined spec="minimatch@^3.1.2" args=["minimatch@^3.1.2",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'minimatch@^3.1.2',
+28 verbose parsed url   path: 'minimatch@^3.1.2',
+28 verbose parsed url   href: 'minimatch@^3.1.2' }
+29 verbose cache add name="minimatch" spec="^3.1.2" args=["minimatch","^3.1.2"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '^3.1.2',
+30 verbose parsed url   path: '^3.1.2',
+30 verbose parsed url   href: '^3.1.2' }
+31 verbose addNamed [ 'minimatch', '^3.1.2' ]
+32 verbose addNamed [ null, '>=3.1.2-0 <4.0.0-0' ]
+33 silly lockFile 789e406a-minimatch-3-1-2 minimatch@^3.1.2
+34 verbose lock minimatch@^3.1.2 /root/.npm/789e406a-minimatch-3-1-2.lock
+35 verbose cache add [ 'ignore-by-default@^1.0.1', null ]
+36 verbose cache add name=undefined spec="ignore-by-default@^1.0.1" args=["ignore-by-default@^1.0.1",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'ignore-by-default@^1.0.1',
+37 verbose parsed url   path: 'ignore-by-default@^1.0.1',
+37 verbose parsed url   href: 'ignore-by-default@^1.0.1' }
+38 verbose cache add name="ignore-by-default" spec="^1.0.1" args=["ignore-by-default","^1.0.1"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '^1.0.1',
+39 verbose parsed url   path: '^1.0.1',
+39 verbose parsed url   href: '^1.0.1' }
+40 verbose addNamed [ 'ignore-by-default', '^1.0.1' ]
+41 verbose addNamed [ null, '>=1.0.1-0 <2.0.0-0' ]
+42 silly lockFile 2835a20a-ignore-by-default-1-0-1 ignore-by-default@^1.0.1
+43 verbose lock ignore-by-default@^1.0.1 /root/.npm/2835a20a-ignore-by-default-1-0-1.lock
+44 verbose cache add [ 'pstree.remy@^1.1.8', null ]
+45 verbose cache add name=undefined spec="pstree.remy@^1.1.8" args=["pstree.remy@^1.1.8",null]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: 'pstree.remy@^1.1.8',
+46 verbose parsed url   path: 'pstree.remy@^1.1.8',
+46 verbose parsed url   href: 'pstree.remy@^1.1.8' }
+47 verbose cache add name="pstree.remy" spec="^1.1.8" args=["pstree.remy","^1.1.8"]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: '^1.1.8',
+48 verbose parsed url   path: '^1.1.8',
+48 verbose parsed url   href: '^1.1.8' }
+49 verbose addNamed [ 'pstree.remy', '^1.1.8' ]
+50 verbose addNamed [ null, '>=1.1.8-0 <2.0.0-0' ]
+51 silly lockFile b37114fe-pstree-remy-1-1-8 pstree.remy@^1.1.8
+52 verbose lock pstree.remy@^1.1.8 /root/.npm/b37114fe-pstree-remy-1-1-8.lock
+53 verbose cache add [ 'semver@^7.5.3', null ]
+54 verbose cache add name=undefined spec="semver@^7.5.3" args=["semver@^7.5.3",null]
+55 verbose parsed url { protocol: null,
+55 verbose parsed url   slashes: null,
+55 verbose parsed url   auth: null,
+55 verbose parsed url   host: null,
+55 verbose parsed url   port: null,
+55 verbose parsed url   hostname: null,
+55 verbose parsed url   hash: null,
+55 verbose parsed url   search: null,
+55 verbose parsed url   query: null,
+55 verbose parsed url   pathname: 'semver@^7.5.3',
+55 verbose parsed url   path: 'semver@^7.5.3',
+55 verbose parsed url   href: 'semver@^7.5.3' }
+56 verbose cache add name="semver" spec="^7.5.3" args=["semver","^7.5.3"]
+57 verbose parsed url { protocol: null,
+57 verbose parsed url   slashes: null,
+57 verbose parsed url   auth: null,
+57 verbose parsed url   host: null,
+57 verbose parsed url   port: null,
+57 verbose parsed url   hostname: null,
+57 verbose parsed url   hash: null,
+57 verbose parsed url   search: null,
+57 verbose parsed url   query: null,
+57 verbose parsed url   pathname: '^7.5.3',
+57 verbose parsed url   path: '^7.5.3',
+57 verbose parsed url   href: '^7.5.3' }
+58 verbose addNamed [ 'semver', '^7.5.3' ]
+59 verbose addNamed [ null, '>=7.5.3-0 <8.0.0-0' ]
+60 silly lockFile 4a24bb55-semver-7-5-3 semver@^7.5.3
+61 verbose lock semver@^7.5.3 /root/.npm/4a24bb55-semver-7-5-3.lock
+62 verbose cache add [ 'simple-update-notifier@^2.0.0', null ]
+63 verbose cache add name=undefined spec="simple-update-notifier@^2.0.0" args=["simple-update-notifier@^2.0.0",null]
+64 verbose parsed url { protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: 'simple-update-notifier@^2.0.0',
+64 verbose parsed url   path: 'simple-update-notifier@^2.0.0',
+64 verbose parsed url   href: 'simple-update-notifier@^2.0.0' }
+65 verbose cache add name="simple-update-notifier" spec="^2.0.0" args=["simple-update-notifier","^2.0.0"]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: '^2.0.0',
+66 verbose parsed url   path: '^2.0.0',
+66 verbose parsed url   href: '^2.0.0' }
+67 verbose addNamed [ 'simple-update-notifier', '^2.0.0' ]
+68 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+69 silly lockFile 2d9c1007-simple-update-notifier-2-0-0 simple-update-notifier@^2.0.0
+70 verbose lock simple-update-notifier@^2.0.0 /root/.npm/2d9c1007-simple-update-notifier-2-0-0.lock
+71 verbose cache add [ 'supports-color@^5.5.0', null ]
+72 verbose cache add name=undefined spec="supports-color@^5.5.0" args=["supports-color@^5.5.0",null]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: 'supports-color@^5.5.0',
+73 verbose parsed url   path: 'supports-color@^5.5.0',
+73 verbose parsed url   href: 'supports-color@^5.5.0' }
+74 verbose cache add name="supports-color" spec="^5.5.0" args=["supports-color","^5.5.0"]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: '^5.5.0',
+75 verbose parsed url   path: '^5.5.0',
+75 verbose parsed url   href: '^5.5.0' }
+76 verbose addNamed [ 'supports-color', '^5.5.0' ]
+77 verbose addNamed [ null, '>=5.5.0-0 <6.0.0-0' ]
+78 silly lockFile 4e2cc364-supports-color-5-5-0 supports-color@^5.5.0
+79 verbose lock supports-color@^5.5.0 /root/.npm/4e2cc364-supports-color-5-5-0.lock
+80 verbose cache add [ 'touch@^3.1.0', null ]
+81 verbose cache add name=undefined spec="touch@^3.1.0" args=["touch@^3.1.0",null]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: 'touch@^3.1.0',
+82 verbose parsed url   path: 'touch@^3.1.0',
+82 verbose parsed url   href: 'touch@^3.1.0' }
+83 verbose cache add name="touch" spec="^3.1.0" args=["touch","^3.1.0"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: '^3.1.0',
+84 verbose parsed url   path: '^3.1.0',
+84 verbose parsed url   href: '^3.1.0' }
+85 verbose addNamed [ 'touch', '^3.1.0' ]
+86 verbose addNamed [ null, '>=3.1.0-0 <4.0.0-0' ]
+87 silly lockFile caa93724-touch-3-1-0 touch@^3.1.0
+88 verbose lock touch@^3.1.0 /root/.npm/caa93724-touch-3-1-0.lock
+89 verbose cache add [ 'undefsafe@^2.0.5', null ]
+90 verbose cache add name=undefined spec="undefsafe@^2.0.5" args=["undefsafe@^2.0.5",null]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: 'undefsafe@^2.0.5',
+91 verbose parsed url   path: 'undefsafe@^2.0.5',
+91 verbose parsed url   href: 'undefsafe@^2.0.5' }
+92 verbose cache add name="undefsafe" spec="^2.0.5" args=["undefsafe","^2.0.5"]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: '^2.0.5',
+93 verbose parsed url   path: '^2.0.5',
+93 verbose parsed url   href: '^2.0.5' }
+94 verbose addNamed [ 'undefsafe', '^2.0.5' ]
+95 verbose addNamed [ null, '>=2.0.5-0 <3.0.0-0' ]
+96 silly lockFile 0705d316-undefsafe-2-0-5 undefsafe@^2.0.5
+97 verbose lock undefsafe@^2.0.5 /root/.npm/0705d316-undefsafe-2-0-5.lock
+98 verbose cache add [ '@commitlint/cli@^11.0.0', null ]
+99 verbose cache add name=undefined spec="@commitlint/cli@^11.0.0" args=["@commitlint/cli@^11.0.0",null]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: '@commitlint/cli@^11.0.0',
+100 verbose parsed url   path: '@commitlint/cli@^11.0.0',
+100 verbose parsed url   href: '@commitlint/cli@^11.0.0' }
+101 verbose cache add name="" spec="commitlint/cli@^11.0.0" args=["","commitlint/cli@^11.0.0"]
+102 verbose parsed url { protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: 'commitlint/cli@^11.0.0',
+102 verbose parsed url   path: 'commitlint/cli@^11.0.0',
+102 verbose parsed url   href: 'commitlint/cli@^11.0.0' }
+103 verbose cache add name="commitlint/cli" spec="^11.0.0" args=["commitlint/cli","^11.0.0"]
+104 verbose parsed url { protocol: null,
+104 verbose parsed url   slashes: null,
+104 verbose parsed url   auth: null,
+104 verbose parsed url   host: null,
+104 verbose parsed url   port: null,
+104 verbose parsed url   hostname: null,
+104 verbose parsed url   hash: null,
+104 verbose parsed url   search: null,
+104 verbose parsed url   query: null,
+104 verbose parsed url   pathname: '^11.0.0',
+104 verbose parsed url   path: '^11.0.0',
+104 verbose parsed url   href: '^11.0.0' }
+105 verbose addNamed [ 'commitlint/cli', '^11.0.0' ]
+106 verbose addNamed [ null, '>=11.0.0-0 <12.0.0-0' ]
+107 silly lockFile 68179eed-commitlint-cli-11-0-0 commitlint/cli@^11.0.0
+108 verbose lock commitlint/cli@^11.0.0 /root/.npm/68179eed-commitlint-cli-11-0-0.lock
+109 verbose cache add [ 'async@1.4.2', null ]
+110 verbose cache add name=undefined spec="async@1.4.2" args=["async@1.4.2",null]
+111 verbose parsed url { protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: 'async@1.4.2',
+111 verbose parsed url   path: 'async@1.4.2',
+111 verbose parsed url   href: 'async@1.4.2' }
+112 verbose cache add name="async" spec="1.4.2" args=["async","1.4.2"]
+113 verbose parsed url { protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: '1.4.2',
+113 verbose parsed url   path: '1.4.2',
+113 verbose parsed url   href: '1.4.2' }
+114 verbose addNamed [ 'async', '1.4.2' ]
+115 verbose addNamed [ '1.4.2', '1.4.2' ]
+116 silly lockFile e1acc90e-async-1-4-2 async@1.4.2
+117 verbose lock async@1.4.2 /root/.npm/e1acc90e-async-1-4-2.lock
+118 verbose cache add [ '@commitlint/config-conventional@^11.0.0', null ]
+119 verbose cache add name=undefined spec="@commitlint/config-conventional@^11.0.0" args=["@commitlint/config-conventional@^11.0.0",null]
+120 verbose parsed url { protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: '@commitlint/config-conventional@^11.0.0',
+120 verbose parsed url   path: '@commitlint/config-conventional@^11.0.0',
+120 verbose parsed url   href: '@commitlint/config-conventional@^11.0.0' }
+121 verbose cache add name="" spec="commitlint/config-conventional@^11.0.0" args=["","commitlint/config-conventional@^11.0.0"]
+122 verbose parsed url { protocol: null,
+122 verbose parsed url   slashes: null,
+122 verbose parsed url   auth: null,
+122 verbose parsed url   host: null,
+122 verbose parsed url   port: null,
+122 verbose parsed url   hostname: null,
+122 verbose parsed url   hash: null,
+122 verbose parsed url   search: null,
+122 verbose parsed url   query: null,
+122 verbose parsed url   pathname: 'commitlint/config-conventional@^11.0.0',
+122 verbose parsed url   path: 'commitlint/config-conventional@^11.0.0',
+122 verbose parsed url   href: 'commitlint/config-conventional@^11.0.0' }
+123 verbose cache add name="commitlint/config-conventional" spec="^11.0.0" args=["commitlint/config-conventional","^11.0.0"]
+124 verbose parsed url { protocol: null,
+124 verbose parsed url   slashes: null,
+124 verbose parsed url   auth: null,
+124 verbose parsed url   host: null,
+124 verbose parsed url   port: null,
+124 verbose parsed url   hostname: null,
+124 verbose parsed url   hash: null,
+124 verbose parsed url   search: null,
+124 verbose parsed url   query: null,
+124 verbose parsed url   pathname: '^11.0.0',
+124 verbose parsed url   path: '^11.0.0',
+124 verbose parsed url   href: '^11.0.0' }
+125 verbose addNamed [ 'commitlint/config-conventional', '^11.0.0' ]
+126 verbose addNamed [ null, '>=11.0.0-0 <12.0.0-0' ]
+127 silly lockFile 3742bbbe-tlint-config-conventional-11-0-0 commitlint/config-conventional@^11.0.0
+128 verbose lock commitlint/config-conventional@^11.0.0 /root/.npm/3742bbbe-tlint-config-conventional-11-0-0.lock
+129 verbose cache add [ 'coffee-script@~1.7.1', null ]
+130 verbose cache add name=undefined spec="coffee-script@~1.7.1" args=["coffee-script@~1.7.1",null]
+131 verbose parsed url { protocol: null,
+131 verbose parsed url   slashes: null,
+131 verbose parsed url   auth: null,
+131 verbose parsed url   host: null,
+131 verbose parsed url   port: null,
+131 verbose parsed url   hostname: null,
+131 verbose parsed url   hash: null,
+131 verbose parsed url   search: null,
+131 verbose parsed url   query: null,
+131 verbose parsed url   pathname: 'coffee-script@~1.7.1',
+131 verbose parsed url   path: 'coffee-script@~1.7.1',
+131 verbose parsed url   href: 'coffee-script@~1.7.1' }
+132 verbose cache add name="coffee-script" spec="~1.7.1" args=["coffee-script","~1.7.1"]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: '~1.7.1',
+133 verbose parsed url   path: '~1.7.1',
+133 verbose parsed url   href: '~1.7.1' }
+134 verbose addNamed [ 'coffee-script', '~1.7.1' ]
+135 verbose addNamed [ null, '>=1.7.1-0 <1.8.0-0' ]
+136 silly lockFile f260707c-coffee-script-1-7-1 coffee-script@~1.7.1
+137 verbose lock coffee-script@~1.7.1 /root/.npm/f260707c-coffee-script-1-7-1.lock
+138 verbose cache add [ 'eslint@^7.32.0', null ]
+139 verbose cache add name=undefined spec="eslint@^7.32.0" args=["eslint@^7.32.0",null]
+140 verbose parsed url { protocol: null,
+140 verbose parsed url   slashes: null,
+140 verbose parsed url   auth: null,
+140 verbose parsed url   host: null,
+140 verbose parsed url   port: null,
+140 verbose parsed url   hostname: null,
+140 verbose parsed url   hash: null,
+140 verbose parsed url   search: null,
+140 verbose parsed url   query: null,
+140 verbose parsed url   pathname: 'eslint@^7.32.0',
+140 verbose parsed url   path: 'eslint@^7.32.0',
+140 verbose parsed url   href: 'eslint@^7.32.0' }
+141 verbose cache add name="eslint" spec="^7.32.0" args=["eslint","^7.32.0"]
+142 verbose parsed url { protocol: null,
+142 verbose parsed url   slashes: null,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: null,
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: null,
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: '^7.32.0',
+142 verbose parsed url   path: '^7.32.0',
+142 verbose parsed url   href: '^7.32.0' }
+143 verbose addNamed [ 'eslint', '^7.32.0' ]
+144 verbose addNamed [ null, '>=7.32.0-0 <8.0.0-0' ]
+145 silly lockFile 1a571b43-eslint-7-32-0 eslint@^7.32.0
+146 verbose lock eslint@^7.32.0 /root/.npm/1a571b43-eslint-7-32-0.lock
+147 verbose cache add [ 'husky@^7.0.4', null ]
+148 verbose cache add name=undefined spec="husky@^7.0.4" args=["husky@^7.0.4",null]
+149 verbose parsed url { protocol: null,
+149 verbose parsed url   slashes: null,
+149 verbose parsed url   auth: null,
+149 verbose parsed url   host: null,
+149 verbose parsed url   port: null,
+149 verbose parsed url   hostname: null,
+149 verbose parsed url   hash: null,
+149 verbose parsed url   search: null,
+149 verbose parsed url   query: null,
+149 verbose parsed url   pathname: 'husky@^7.0.4',
+149 verbose parsed url   path: 'husky@^7.0.4',
+149 verbose parsed url   href: 'husky@^7.0.4' }
+150 verbose cache add name="husky" spec="^7.0.4" args=["husky","^7.0.4"]
+151 verbose parsed url { protocol: null,
+151 verbose parsed url   slashes: null,
+151 verbose parsed url   auth: null,
+151 verbose parsed url   host: null,
+151 verbose parsed url   port: null,
+151 verbose parsed url   hostname: null,
+151 verbose parsed url   hash: null,
+151 verbose parsed url   search: null,
+151 verbose parsed url   query: null,
+151 verbose parsed url   pathname: '^7.0.4',
+151 verbose parsed url   path: '^7.0.4',
+151 verbose parsed url   href: '^7.0.4' }
+152 verbose addNamed [ 'husky', '^7.0.4' ]
+153 verbose addNamed [ null, '>=7.0.4-0 <8.0.0-0' ]
+154 silly lockFile 1f1e911d-husky-7-0-4 husky@^7.0.4
+155 verbose lock husky@^7.0.4 /root/.npm/1f1e911d-husky-7-0-4.lock
+156 silly addNameRange { name: 'chokidar', range: '>=3.5.2-0 <4.0.0-0', hasData: false }
+157 silly addNameRange { name: 'debug', range: '>=3.2.7-0 <4.0.0-0', hasData: false }
+158 silly addNameRange { name: 'minimatch',
+158 silly addNameRange   range: '>=3.1.2-0 <4.0.0-0',
+158 silly addNameRange   hasData: false }
+159 verbose cache add [ 'mocha@^2.5.3', null ]
+160 verbose cache add name=undefined spec="mocha@^2.5.3" args=["mocha@^2.5.3",null]
+161 verbose parsed url { protocol: null,
+161 verbose parsed url   slashes: null,
+161 verbose parsed url   auth: null,
+161 verbose parsed url   host: null,
+161 verbose parsed url   port: null,
+161 verbose parsed url   hostname: null,
+161 verbose parsed url   hash: null,
+161 verbose parsed url   search: null,
+161 verbose parsed url   query: null,
+161 verbose parsed url   pathname: 'mocha@^2.5.3',
+161 verbose parsed url   path: 'mocha@^2.5.3',
+161 verbose parsed url   href: 'mocha@^2.5.3' }
+162 verbose cache add name="mocha" spec="^2.5.3" args=["mocha","^2.5.3"]
+163 verbose parsed url { protocol: null,
+163 verbose parsed url   slashes: null,
+163 verbose parsed url   auth: null,
+163 verbose parsed url   host: null,
+163 verbose parsed url   port: null,
+163 verbose parsed url   hostname: null,
+163 verbose parsed url   hash: null,
+163 verbose parsed url   search: null,
+163 verbose parsed url   query: null,
+163 verbose parsed url   pathname: '^2.5.3',
+163 verbose parsed url   path: '^2.5.3',
+163 verbose parsed url   href: '^2.5.3' }
+164 verbose addNamed [ 'mocha', '^2.5.3' ]
+165 verbose addNamed [ null, '>=2.5.3-0 <3.0.0-0' ]
+166 silly lockFile a7ff562c-mocha-2-5-3 mocha@^2.5.3
+167 verbose lock mocha@^2.5.3 /root/.npm/a7ff562c-mocha-2-5-3.lock
+168 verbose cache add [ 'nyc@^15.1.0', null ]
+169 verbose cache add name=undefined spec="nyc@^15.1.0" args=["nyc@^15.1.0",null]
+170 verbose parsed url { protocol: null,
+170 verbose parsed url   slashes: null,
+170 verbose parsed url   auth: null,
+170 verbose parsed url   host: null,
+170 verbose parsed url   port: null,
+170 verbose parsed url   hostname: null,
+170 verbose parsed url   hash: null,
+170 verbose parsed url   search: null,
+170 verbose parsed url   query: null,
+170 verbose parsed url   pathname: 'nyc@^15.1.0',
+170 verbose parsed url   path: 'nyc@^15.1.0',
+170 verbose parsed url   href: 'nyc@^15.1.0' }
+171 verbose cache add name="nyc" spec="^15.1.0" args=["nyc","^15.1.0"]
+172 verbose parsed url { protocol: null,
+172 verbose parsed url   slashes: null,
+172 verbose parsed url   auth: null,
+172 verbose parsed url   host: null,
+172 verbose parsed url   port: null,
+172 verbose parsed url   hostname: null,
+172 verbose parsed url   hash: null,
+172 verbose parsed url   search: null,
+172 verbose parsed url   query: null,
+172 verbose parsed url   pathname: '^15.1.0',
+172 verbose parsed url   path: '^15.1.0',
+172 verbose parsed url   href: '^15.1.0' }
+173 verbose addNamed [ 'nyc', '^15.1.0' ]
+174 verbose addNamed [ null, '>=15.1.0-0 <16.0.0-0' ]
+175 silly lockFile 7065e5ee-nyc-15-1-0 nyc@^15.1.0
+176 verbose lock nyc@^15.1.0 /root/.npm/7065e5ee-nyc-15-1-0.lock
+177 verbose cache add [ 'proxyquire@^1.8.0', null ]
+178 verbose cache add name=undefined spec="proxyquire@^1.8.0" args=["proxyquire@^1.8.0",null]
+179 verbose parsed url { protocol: null,
+179 verbose parsed url   slashes: null,
+179 verbose parsed url   auth: null,
+179 verbose parsed url   host: null,
+179 verbose parsed url   port: null,
+179 verbose parsed url   hostname: null,
+179 verbose parsed url   hash: null,
+179 verbose parsed url   search: null,
+179 verbose parsed url   query: null,
+179 verbose parsed url   pathname: 'proxyquire@^1.8.0',
+179 verbose parsed url   path: 'proxyquire@^1.8.0',
+179 verbose parsed url   href: 'proxyquire@^1.8.0' }
+180 verbose cache add name="proxyquire" spec="^1.8.0" args=["proxyquire","^1.8.0"]
+181 verbose parsed url { protocol: null,
+181 verbose parsed url   slashes: null,
+181 verbose parsed url   auth: null,
+181 verbose parsed url   host: null,
+181 verbose parsed url   port: null,
+181 verbose parsed url   hostname: null,
+181 verbose parsed url   hash: null,
+181 verbose parsed url   search: null,
+181 verbose parsed url   query: null,
+181 verbose parsed url   pathname: '^1.8.0',
+181 verbose parsed url   path: '^1.8.0',
+181 verbose parsed url   href: '^1.8.0' }
+182 verbose addNamed [ 'proxyquire', '^1.8.0' ]
+183 verbose addNamed [ null, '>=1.8.0-0 <2.0.0-0' ]
+184 silly lockFile a95ace42-proxyquire-1-8-0 proxyquire@^1.8.0
+185 verbose lock proxyquire@^1.8.0 /root/.npm/a95ace42-proxyquire-1-8-0.lock
+186 verbose cache add [ 'semantic-release@^18.0.0', null ]
+187 verbose cache add name=undefined spec="semantic-release@^18.0.0" args=["semantic-release@^18.0.0",null]
+188 verbose parsed url { protocol: null,
+188 verbose parsed url   slashes: null,
+188 verbose parsed url   auth: null,
+188 verbose parsed url   host: null,
+188 verbose parsed url   port: null,
+188 verbose parsed url   hostname: null,
+188 verbose parsed url   hash: null,
+188 verbose parsed url   search: null,
+188 verbose parsed url   query: null,
+188 verbose parsed url   pathname: 'semantic-release@^18.0.0',
+188 verbose parsed url   path: 'semantic-release@^18.0.0',
+188 verbose parsed url   href: 'semantic-release@^18.0.0' }
+189 verbose cache add name="semantic-release" spec="^18.0.0" args=["semantic-release","^18.0.0"]
+190 verbose parsed url { protocol: null,
+190 verbose parsed url   slashes: null,
+190 verbose parsed url   auth: null,
+190 verbose parsed url   host: null,
+190 verbose parsed url   port: null,
+190 verbose parsed url   hostname: null,
+190 verbose parsed url   hash: null,
+190 verbose parsed url   search: null,
+190 verbose parsed url   query: null,
+190 verbose parsed url   pathname: '^18.0.0',
+190 verbose parsed url   path: '^18.0.0',
+190 verbose parsed url   href: '^18.0.0' }
+191 verbose addNamed [ 'semantic-release', '^18.0.0' ]
+192 verbose addNamed [ null, '>=18.0.0-0 <19.0.0-0' ]
+193 silly lockFile 3a6fc9d6-semantic-release-18-0-0 semantic-release@^18.0.0
+194 verbose lock semantic-release@^18.0.0 /root/.npm/3a6fc9d6-semantic-release-18-0-0.lock
+195 verbose cache add [ 'should@~4.0.0', null ]
+196 verbose cache add name=undefined spec="should@~4.0.0" args=["should@~4.0.0",null]
+197 verbose parsed url { protocol: null,
+197 verbose parsed url   slashes: null,
+197 verbose parsed url   auth: null,
+197 verbose parsed url   host: null,
+197 verbose parsed url   port: null,
+197 verbose parsed url   hostname: null,
+197 verbose parsed url   hash: null,
+197 verbose parsed url   search: null,
+197 verbose parsed url   query: null,
+197 verbose parsed url   pathname: 'should@~4.0.0',
+197 verbose parsed url   path: 'should@~4.0.0',
+197 verbose parsed url   href: 'should@~4.0.0' }
+198 verbose cache add name="should" spec="~4.0.0" args=["should","~4.0.0"]
+199 verbose parsed url { protocol: null,
+199 verbose parsed url   slashes: null,
+199 verbose parsed url   auth: null,
+199 verbose parsed url   host: null,
+199 verbose parsed url   port: null,
+199 verbose parsed url   hostname: null,
+199 verbose parsed url   hash: null,
+199 verbose parsed url   search: null,
+199 verbose parsed url   query: null,
+199 verbose parsed url   pathname: '~4.0.0',
+199 verbose parsed url   path: '~4.0.0',
+199 verbose parsed url   href: '~4.0.0' }
+200 verbose addNamed [ 'should', '~4.0.0' ]
+201 verbose addNamed [ null, '>=4.0.0-0 <4.1.0-0' ]
+202 silly lockFile 6a4f8589-should-4-0-0 should@~4.0.0
+203 verbose lock should@~4.0.0 /root/.npm/6a4f8589-should-4-0-0.lock
+204 silly addNameRange { name: 'ignore-by-default',
+204 silly addNameRange   range: '>=1.0.1-0 <2.0.0-0',
+204 silly addNameRange   hasData: false }
+205 silly addNameRange { name: 'pstree.remy',
+205 silly addNameRange   range: '>=1.1.8-0 <2.0.0-0',
+205 silly addNameRange   hasData: false }
+206 verbose url raw chokidar
+207 verbose url resolving [ 'https://registry.npmjs.org/', './chokidar' ]
+208 verbose url resolved https://registry.npmjs.org/chokidar
+209 info trying registry request attempt 1 at 08:34:14
+210 http GET https://registry.npmjs.org/chokidar
+211 verbose url raw debug
+212 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+213 verbose url resolved https://registry.npmjs.org/debug
+214 info trying registry request attempt 1 at 08:34:14
+215 http GET https://registry.npmjs.org/debug
+216 silly addNameRange { name: 'semver', range: '>=7.5.3-0 <8.0.0-0', hasData: false }
+217 silly addNameRange { name: 'simple-update-notifier',
+217 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+217 silly addNameRange   hasData: false }
+218 silly addNameRange { name: 'supports-color',
+218 silly addNameRange   range: '>=5.5.0-0 <6.0.0-0',
+218 silly addNameRange   hasData: false }
+219 silly addNameRange { name: 'touch', range: '>=3.1.0-0 <4.0.0-0', hasData: false }
+220 silly addNameRange { name: 'undefsafe',
+220 silly addNameRange   range: '>=2.0.5-0 <3.0.0-0',
+220 silly addNameRange   hasData: false }
+221 silly addNameRange { name: 'commitlint/cli',
+221 silly addNameRange   range: '>=11.0.0-0 <12.0.0-0',
+221 silly addNameRange   hasData: false }
+222 silly addNameRange { name: 'commitlint/config-conventional',
+222 silly addNameRange   range: '>=11.0.0-0 <12.0.0-0',
+222 silly addNameRange   hasData: false }
+223 silly addNameRange { name: 'coffee-script',
+223 silly addNameRange   range: '>=1.7.1-0 <1.8.0-0',
+223 silly addNameRange   hasData: false }
+224 silly addNameRange { name: 'eslint', range: '>=7.32.0-0 <8.0.0-0', hasData: false }
+225 silly addNameRange { name: 'husky', range: '>=7.0.4-0 <8.0.0-0', hasData: false }
+226 verbose url raw ignore-by-default
+227 verbose url resolving [ 'https://registry.npmjs.org/', './ignore-by-default' ]
+228 verbose url resolved https://registry.npmjs.org/ignore-by-default
+229 info trying registry request attempt 1 at 08:34:14
+230 http GET https://registry.npmjs.org/ignore-by-default
+231 verbose url raw pstree.remy
+232 verbose url resolving [ 'https://registry.npmjs.org/', './pstree.remy' ]
+233 verbose url resolved https://registry.npmjs.org/pstree.remy
+234 info trying registry request attempt 1 at 08:34:14
+235 http GET https://registry.npmjs.org/pstree.remy
+236 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+237 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+238 verbose url raw simple-update-notifier
+239 verbose url resolving [ 'https://registry.npmjs.org/', './simple-update-notifier' ]
+240 verbose url resolved https://registry.npmjs.org/simple-update-notifier
+241 info trying registry request attempt 1 at 08:34:14
+242 http GET https://registry.npmjs.org/simple-update-notifier
+243 verbose url raw touch
+244 verbose url resolving [ 'https://registry.npmjs.org/', './touch' ]
+245 verbose url resolved https://registry.npmjs.org/touch
+246 info trying registry request attempt 1 at 08:34:14
+247 http GET https://registry.npmjs.org/touch
+248 verbose url raw undefsafe
+249 verbose url resolving [ 'https://registry.npmjs.org/', './undefsafe' ]
+250 verbose url resolved https://registry.npmjs.org/undefsafe
+251 info trying registry request attempt 1 at 08:34:14
+252 http GET https://registry.npmjs.org/undefsafe
+253 verbose url raw commitlint/cli
+254 verbose url resolving [ 'https://registry.npmjs.org/', './commitlint/cli' ]
+255 verbose url resolved https://registry.npmjs.org/commitlint/cli
+256 info trying registry request attempt 1 at 08:34:14
+257 http GET https://registry.npmjs.org/commitlint/cli
+258 verbose url raw async/1.4.2
+259 verbose url resolving [ 'https://registry.npmjs.org/', './async/1.4.2' ]
+260 verbose url resolved https://registry.npmjs.org/async/1.4.2
+261 info trying registry request attempt 1 at 08:34:14
+262 http GET https://registry.npmjs.org/async/1.4.2
+263 verbose url raw commitlint/config-conventional
+264 verbose url resolving [ 'https://registry.npmjs.org/',
+264 verbose url resolving   './commitlint/config-conventional' ]
+265 verbose url resolved https://registry.npmjs.org/commitlint/config-conventional
+266 info trying registry request attempt 1 at 08:34:14
+267 http GET https://registry.npmjs.org/commitlint/config-conventional
+268 verbose url raw coffee-script
+269 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+270 verbose url resolved https://registry.npmjs.org/coffee-script
+271 info trying registry request attempt 1 at 08:34:14
+272 http GET https://registry.npmjs.org/coffee-script
+273 verbose url raw eslint
+274 verbose url resolving [ 'https://registry.npmjs.org/', './eslint' ]
+275 verbose url resolved https://registry.npmjs.org/eslint
+276 info trying registry request attempt 1 at 08:34:14
+277 http GET https://registry.npmjs.org/eslint
+278 silly addNameRange { name: 'mocha', range: '>=2.5.3-0 <3.0.0-0', hasData: false }
+279 silly addNameRange { name: 'nyc', range: '>=15.1.0-0 <16.0.0-0', hasData: false }
+280 silly addNameRange { name: 'proxyquire',
+280 silly addNameRange   range: '>=1.8.0-0 <2.0.0-0',
+280 silly addNameRange   hasData: false }
+281 silly addNameRange { name: 'semantic-release',
+281 silly addNameRange   range: '>=18.0.0-0 <19.0.0-0',
+281 silly addNameRange   hasData: false }
+282 silly addNameRange { name: 'should', range: '>=4.0.0-0 <4.1.0-0', hasData: false }
+283 verbose url raw husky
+284 verbose url resolving [ 'https://registry.npmjs.org/', './husky' ]
+285 verbose url resolved https://registry.npmjs.org/husky
+286 info trying registry request attempt 1 at 08:34:14
+287 http GET https://registry.npmjs.org/husky
+288 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+289 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+290 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+291 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+292 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+293 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+294 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+295 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+296 verbose url raw mocha
+297 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+298 verbose url resolved https://registry.npmjs.org/mocha
+299 info trying registry request attempt 1 at 08:34:14
+300 http GET https://registry.npmjs.org/mocha
+301 verbose url raw nyc
+302 verbose url resolving [ 'https://registry.npmjs.org/', './nyc' ]
+303 verbose url resolved https://registry.npmjs.org/nyc
+304 info trying registry request attempt 1 at 08:34:14
+305 http GET https://registry.npmjs.org/nyc
+306 verbose url raw proxyquire
+307 verbose url resolving [ 'https://registry.npmjs.org/', './proxyquire' ]
+308 verbose url resolved https://registry.npmjs.org/proxyquire
+309 info trying registry request attempt 1 at 08:34:14
+310 http GET https://registry.npmjs.org/proxyquire
+311 verbose url raw semantic-release
+312 verbose url resolving [ 'https://registry.npmjs.org/', './semantic-release' ]
+313 verbose url resolved https://registry.npmjs.org/semantic-release
+314 info trying registry request attempt 1 at 08:34:14
+315 http GET https://registry.npmjs.org/semantic-release
+316 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+317 verbose url raw should
+318 verbose url resolving [ 'https://registry.npmjs.org/', './should' ]
+319 verbose url resolved https://registry.npmjs.org/should
+320 info trying registry request attempt 1 at 08:34:14
+321 http GET https://registry.npmjs.org/should
+322 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+323 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+324 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+325 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+326 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+327 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+328 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+329 verbose url raw minimatch
+330 verbose url resolving [ 'https://registry.npmjs.org/', './minimatch' ]
+331 verbose url resolved https://registry.npmjs.org/minimatch
+332 info trying registry request attempt 1 at 08:34:14
+333 verbose etag "81a3edebcdd90e2adbfe823b4738aaa7"
+334 http GET https://registry.npmjs.org/minimatch
+335 verbose url raw supports-color
+336 verbose url resolving [ 'https://registry.npmjs.org/', './supports-color' ]
+337 verbose url resolved https://registry.npmjs.org/supports-color
+338 info trying registry request attempt 1 at 08:34:14
+339 verbose etag "4cf4dc55e204a634f07721f7abe83d80"
+340 http GET https://registry.npmjs.org/supports-color
+341 verbose url raw semver
+342 verbose url resolving [ 'https://registry.npmjs.org/', './semver' ]
+343 verbose url resolved https://registry.npmjs.org/semver
+344 info trying registry request attempt 1 at 08:34:15
+345 verbose etag "b8bf26269d0c31385f2c2fe115d9c67b"
+346 http GET https://registry.npmjs.org/semver
+347 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+348 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+349 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+350 info trying registry request attempt 2 at 08:34:24
+351 http GET https://registry.npmjs.org/chokidar
+352 info trying registry request attempt 2 at 08:34:24
+353 http GET https://registry.npmjs.org/debug
+354 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+355 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+356 info trying registry request attempt 2 at 08:34:24
+357 http GET https://registry.npmjs.org/ignore-by-default
+358 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+359 info trying registry request attempt 2 at 08:34:24
+360 http GET https://registry.npmjs.org/pstree.remy
+361 info trying registry request attempt 2 at 08:34:24
+362 http GET https://registry.npmjs.org/simple-update-notifier
+363 info trying registry request attempt 2 at 08:34:24
+364 http GET https://registry.npmjs.org/touch
+365 info trying registry request attempt 2 at 08:34:24
+366 http GET https://registry.npmjs.org/undefsafe
+367 info trying registry request attempt 2 at 08:34:24
+368 http GET https://registry.npmjs.org/commitlint/cli
+369 info trying registry request attempt 2 at 08:34:24
+370 http GET https://registry.npmjs.org/async/1.4.2
+371 info trying registry request attempt 2 at 08:34:24
+372 http GET https://registry.npmjs.org/commitlint/config-conventional
+373 info trying registry request attempt 2 at 08:34:24
+374 http GET https://registry.npmjs.org/coffee-script
+375 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+376 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+377 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+378 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+379 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+380 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+381 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+382 info trying registry request attempt 2 at 08:34:24
+383 http GET https://registry.npmjs.org/eslint
+384 info trying registry request attempt 2 at 08:34:24
+385 http GET https://registry.npmjs.org/husky
+386 info trying registry request attempt 2 at 08:34:24
+387 http GET https://registry.npmjs.org/mocha
+388 info trying registry request attempt 2 at 08:34:24
+389 http GET https://registry.npmjs.org/nyc
+390 info trying registry request attempt 2 at 08:34:24
+391 http GET https://registry.npmjs.org/proxyquire
+392 info trying registry request attempt 2 at 08:34:24
+393 http GET https://registry.npmjs.org/semantic-release
+394 info trying registry request attempt 2 at 08:34:24
+395 http GET https://registry.npmjs.org/should
+396 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+397 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+398 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+399 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+400 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+401 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+402 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+403 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+404 info trying registry request attempt 2 at 08:34:25
+405 verbose etag "81a3edebcdd90e2adbfe823b4738aaa7"
+406 http GET https://registry.npmjs.org/minimatch
+407 info trying registry request attempt 2 at 08:34:25
+408 verbose etag "4cf4dc55e204a634f07721f7abe83d80"
+409 http GET https://registry.npmjs.org/supports-color
+410 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+411 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+412 info trying registry request attempt 2 at 08:34:25
+413 verbose etag "b8bf26269d0c31385f2c2fe115d9c67b"
+414 http GET https://registry.npmjs.org/semver
+415 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+416 info trying registry request attempt 3 at 08:35:24
+417 http GET https://registry.npmjs.org/chokidar
+418 info trying registry request attempt 3 at 08:35:24
+419 http GET https://registry.npmjs.org/debug
+420 silly lockFile 27b6d617-chokidar-3-5-2 chokidar@^3.5.2
+421 silly lockFile 27b6d617-chokidar-3-5-2 chokidar@^3.5.2
+422 silly lockFile 39b34562-debug-3-2-7 debug@^3.2.7
+423 silly lockFile 39b34562-debug-3-2-7 debug@^3.2.7
+424 error network tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+424 error network This is most likely not a problem with npm itself
+424 error network and is related to network connectivity.
+424 error network In most cases you are behind a proxy or have bad network settings.
+424 error network
+424 error network If you are behind a proxy, please make sure that the
+424 error network 'proxy' config is set properly.  See: 'npm help config'
+425 error System Linux 5.3.0-1032-aws
+426 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+427 error cwd /alx-backend-javascript/0x05-Node_JS_basic
+428 error node -v v0.10.25
+429 error npm -v 1.3.10
+430 error code ECONNRESET
+431 verbose exit [ 1, true ]
